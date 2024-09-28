@@ -78,3 +78,5 @@ int init_sdl(int FLAGS){
 	return 0;
 }
 
+int coll_rect(SDL_Rect r1, SDL_Rect r2);
+int coll_num(int x1, int y1, int w1, int h1, int x2, int y2, int w2, int h2);

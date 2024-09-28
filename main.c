@@ -17,7 +17,7 @@ int init(){
 		printf("Error in init\n");
 		return 0;
 	}
-	if (create_window(&window, "iohsmd", 800, 600))
+	if (create_window(&window, "CBSP", 800, 600))
 		return 0;
 
 	err_tex = load_image(&window, "chuddie.jpg");

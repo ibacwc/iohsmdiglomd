@@ -17,5 +17,7 @@ void destroy_window(Window* window);
 SDL_Texture* load_image(Window* window, char* path);
 void render_texture(Window* window, SDL_Texture* tex, int w, int h, int x,\
 					int y, double angle);
+#ifdef _ENTITY_H_
+void render_entity(Window* window, Entity* e);
 #endif
-
+#endif
